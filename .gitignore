@@ -1,0 +1,10 @@
+# local .terraform dir
+.terraform/*
+
+# tf state files because this is a local file that changes on each apply
+*.tfstate
+*.tfstate.*
+
+# .tfvars as this could contain sensitive files
+*.tfvars
+
